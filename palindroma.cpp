@@ -4,7 +4,7 @@
 using namespace std;
  
 bool palindroma(string parola){
-    bool risultato = false;
+    bool risultato = true;
     
     int k = parola.length()-1;
  
@@ -14,7 +14,9 @@ bool palindroma(string parola){
              if(parola[i] == parola[k]){ 
                 k--;
              }
-             
+             else {
+                return false;
+             }
     }
     cout << parola << endl;
  
