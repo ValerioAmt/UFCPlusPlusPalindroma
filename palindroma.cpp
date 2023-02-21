@@ -15,17 +15,19 @@ bool palindroma(string parola){
                 k--;
              }
              else {
-                return false;
+                risultato = false;
              }
+             
+             
     }
     cout << parola << endl;
  
-    
+    return risultato;
  
 }
  
 int main()
-{   bool risultato =  true;
+{   
     string parola = "osso";
     
     int a = 10;
