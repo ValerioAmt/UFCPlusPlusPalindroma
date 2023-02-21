@@ -15,6 +15,7 @@ bool palindroma(string parola){
                 k--;
              }
              else {
+                k--;
                 risultato = false;
              }
              
@@ -28,7 +29,7 @@ bool palindroma(string parola){
  
 int main()
 {   
-    string parola = "osso";
+    string parola = "valerio";
     
     int a = 10;
     if(palindroma(parola)){
